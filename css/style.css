@@ -1214,50 +1214,45 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
-@media (max-width: 720px) {
+@media (max-width: 720px) and (max-height: 1600px) {
   .title {
     font-size: 40px;
     margin-top: 10px;
   }
 
   .flower {
-    transform: scale(0.7);
-  }
-
-  .flower__leaf {
-    width: 6vmin;
-    height: 8vmin;
+    transform: scale(1.2);
   }
 
   .flower__line {
-    height: 40vmin;
+    height: 80vmin;
   }
 
-  .flower__line__leaf {
-    --w: 5vmin;
-    --h: calc(var(--w) + 1vmin);
+  .flower__leaf {
+    width: 10vmin;
+    height: 14vmin;
   }
 
   .flower__grass {
-    --line-w: 1vmin;
+    bottom: 15vmin;
   }
 
   .flower__grass__leaf {
-    --size: 8vmin;
+    --size: 12vmin;
   }
 
-  .flower__g-long {
-    --w: 1vmin;
-    --h: 4vmin;
+  .flower__light {
+    width: 1.5vmin;
+    height: 1.5vmin;
   }
 
-  .flower__g-front__leaf {
-    width: 8vmin;
-    height: 8vmin;
+  .flower__white-circle {
+    width: 12vmin;
+    height: 6vmin;
   }
 
-  .long-g .leaf {
-    --w: 10vmin;
-    --h: 30vmin;
+  .flower__white-circle::after {
+    width: 70%;
+    height: 70%;
   }
 }
