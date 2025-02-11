@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,89 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="images/gift.png" type="image/x-icon">
   <link rel="stylesheet" href="css/index.css">
+
+  <!-- Document Title -->
   <title>Happy Valentine's Day</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Arial', sans-serif;
-      background: linear-gradient(to bottom, #ffcccc, #ff99cc);
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #fff;
-    }
-
-    .card {
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 15px;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      max-width: 500px;
-      width: 100%;
-    }
-
-    .title {
-      font-size: 2.5em;
-      margin-bottom: 20px;
-    }
-
-    .title span {
-      display: inline-block;
-      opacity: 0;
-      animation: fadeIn 1s forwards;
-    }
-
-    @keyframes fadeIn {
-      to {
-        opacity: 1;
-      }
-    }
-
-    .message {
-      font-size: 1.2em;
-      margin-bottom: 30px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 10px 20px;
-      background: #ff6699;
-      color: #fff;
-      border-radius: 25px;
-      text-decoration: none;
-      font-size: 1em;
-      transition: background 0.3s;
-    }
-
-    .btn:hover {
-      background: #ff3366;
-    }
-
-    .footer {
-      margin-top: 30px;
-      font-size: 1em;
-      color: #fff;
-    }
-  </style>
 </head>
 
 <body>
-  <div class="card">
-    <h1 class="title"></h1>
-    <p class="message">Loving you more and more every day ♡♡♡</p>
+  <!-- Background -->
+  <div class="night"></div>
+
+  <!-- Title -->
+  <h1 class="title">Happy Valentine's Day!</h1>
+
+  <!-- Button -->
+  <div style="position: absolute; top: 60vh; width: 100%; display: flex; justify-content: center;">
     <a href="flower.html" class="btn">
       <svg height="24" width="24" fill="#FFFFFF" viewBox="0 0 24 24" data-name="Layer 1" id="Layer_1" class="sparkle">
         <path
           d="M10,21.236,6.755,14.745.264,11.5,6.755,8.255,10,1.764l3.245,6.491L19.736,11.5l-6.491,3.245ZM18,21l1.5,3L21,21l3-1.5L21,18l-1.5-3L18,18l-3,1.5ZM19.333,4.667,20.5,7l1.167-2.333L24,3.5,21.667,2.333,20.5,0,19.333,2.333,17,3.5Z">
         </path>
       </svg>
+
       <span class="text">Open</span>
     </a>
-    <div class="footer">Wishing you a day filled with love and happiness!</div>
   </div>
+
+  <div style="position: absolute; top: 80vh; width: 100%; display: flex; justify-content: center;">
+    <i style="color:rgb(228, 221, 219); font-size: 20px;">Loving you more and more every day ♡♡♡</i>
+  </div>
+
+  <p style="text-align: center; color: rgb(228, 221, 219); font-size: 20px;">Wishing you a day filled with love and happiness!</p>
+
   <script src="js/index.js"></script>
 </body>
 
