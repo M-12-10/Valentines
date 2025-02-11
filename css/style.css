@@ -1213,7 +1213,7 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
-@media (min-width: 720px) {
+@media (max-width: 720px) {
   .flowers {
     transform: translate(-50%, -50%) scale(1.5);
   }
