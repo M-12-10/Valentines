@@ -350,7 +350,7 @@ body {
 }
 
 .flower__grass {
-  --c: #3cf76e;
+  --c: #228B22; /* Forest green color for grass */
   --line-w: 1.5vmin;
   position: absolute;
   bottom: 12vmin;
@@ -529,7 +529,7 @@ body {
   right: 0%;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 182, 193, 0.6); /* Light pink color for Valentine's theme */
   filter: blur(1.5vmin);
   z-index: 100;
 }
@@ -537,7 +537,7 @@ body {
 .flower__g-long {
   --w: 2vmin;
   --h: 6vmin;
-  --c: #3cf76e;
+  --c: #008000; /* Green color for leaves */
   position: absolute;
   bottom: 10vmin;
   left: -3vmin;
@@ -592,9 +592,9 @@ body {
   width: 30vmin;
   height: 50vmin;
   border-top-left-radius: 100%;
-  border-left: 2vmin solid #3cf76e;
-  background-image: linear-gradient(to bottom, transparent, var(--dark-color) 60%);
-  -webkit-mask-image: linear-gradient(to top, transparent 30%, #3cf76e 60%);
+  border-left: 2vmin solid #008000; /* Green color for leaves */
+  background-image: linear-gradient(to bottom, transparent, #008000 60%); /* Green gradient for leaves */
+  -webkit-mask-image: linear-gradient(to top, transparent 30%, #008000 60%); /* Green gradient for leaves */
 }
 
 .flower__g-right--1 {
@@ -662,7 +662,7 @@ body {
 .flower__g-front__line {
   width: 0.3vmin;
   height: 20vmin;
-  background-image: linear-gradient(to top, transparent, #3cf76e, transparent 100%);
+  background-image: linear-gradient(to top, transparent, #008000, transparent 100%); /* Green gradient for leaves */
   position: relative;
 }
 
@@ -764,7 +764,7 @@ body {
   height: 10vmin;
   border-radius: 100% 0% 0% 100%/100% 100% 0% 0%;
   box-shadow: inset 0 2px 1vmin hsla(0, 0%, 100%, 0.2);
-  background-image: linear-gradient(to bottom left, transparent, var(--dark-color)), linear-gradient(to bottom right, #3cf76e 50%, transparent 50%, transparent);
+  background-image: linear-gradient(to bottom left, transparent, #008000), linear-gradient(to bottom right, #3cf76e 50%, transparent 50%, transparent);
   -webkit-mask-image: linear-gradient(to bottom right, #3cf76e 50%, transparent 50%, transparent);
   mask-image: linear-gradient(to bottom right, #3cf76e 50%, transparent 50%, transparent);
 }
@@ -798,8 +798,8 @@ body {
   width: 30vmin;
   height: 50vmin;
   border-top-left-radius: 100%;
-  border-left: 2vmin solid #3cf76e;
-  -webkit-mask-image: linear-gradient(to top, transparent 25%, #3cf76e 50%);
+  border-left: 2vmin solid #008000; /* Green color for leaves */
+  -webkit-mask-image: linear-gradient(to top, transparent 25%, #008000 50%); /* Green gradient for leaves */
   position: relative;
   z-index: 1;
 }
@@ -812,8 +812,8 @@ body {
   height: 10vmin;
   border-radius: 100% 0% 0% 100%/100% 100% 0% 0%;
   box-shadow: inset 0 2px 1vmin hsla(0, 0%, 100%, 0.2);
-  background-image: linear-gradient(to bottom left, transparent, var(--dark-color) 98%), linear-gradient(to bottom right, #3cf76e 45%, transparent 50%, transparent);
-  -webkit-mask-image: linear-gradient(135deg, #3cf76e 40%, transparent 50%, transparent);
+  background-image: linear-gradient(to bottom left, transparent, var(--dark-color) 98%), linear-gradient(to bottom right, #008000 45%, transparent 50%, transparent); /* Green gradient for leaves */
+  -webkit-mask-image: linear-gradient(135deg, #008000 40%, transparent 50%, transparent); /* Green gradient for leaves */
 }
 
 .flower__g-fr__leaf--1 {
