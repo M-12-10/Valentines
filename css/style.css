@@ -8,6 +8,7 @@
 
 :root {
   --dark-color: #ffb6c1; /* Light pink color for Valentine's theme */
+  --background-gradient: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
 }
 
 .title {
@@ -28,7 +29,7 @@ body {
   align-items: flex-end;
   justify-content: center;
   min-height: 100vh;
-  background-color: var(--dark-color);
+  background: var(--background-gradient);
   overflow: hidden;
   perspective: 1000px;
 }
@@ -41,7 +42,7 @@ body {
   width: 100%;
   height: 100%;
   filter: blur(0.1vmin);
-  background-image: radial-gradient(ellipse at top, transparent 0%, var(--dark-color)), radial-gradient(ellipse at bottom, var(--dark-color), rgba(255, 182, 193, 0.2)), repeating-linear-gradient(220deg, rgb(255, 192, 203) 0px, rgb(255, 192, 203) 19px, transparent 19px, transparent 22px), repeating-linear-gradient(189deg, rgb(255, 192, 203) 0px, rgb(255, 192, 203) 19px, transparent 19px, transparent 22px), repeating-linear-gradient(148deg, rgb(255, 192, 203) 0px, rgb(255, 192, 203) 19px, transparent 19px, transparent 22px), linear-gradient(90deg, rgb(255, 240, 245), rgb(255, 228, 225));
+  background-image: radial-gradient(circle at top, rgba(255, 182, 193, 0.5), transparent), radial-gradient(circle at bottom, rgba(255, 105, 180, 0.5), transparent), var(--background-gradient);
 }
 
 .flowers {
@@ -764,9 +765,9 @@ body {
   height: 10vmin;
   border-radius: 100% 0% 0% 100%/100% 100% 0% 0%;
   box-shadow: inset 0 2px 1vmin hsla(0, 0%, 100%, 0.2);
-  background-image: linear-gradient(to bottom left, transparent, #008000), linear-gradient(to bottom right, #3cf76e 50%, transparent 50%, transparent);
-  -webkit-mask-image: linear-gradient(to bottom right, #3cf76e 50%, transparent 50%, transparent);
-  mask-image: linear-gradient(to bottom right, #3cf76e 50%, transparent 50%, transparent);
+  background-image: linear-gradient(to bottom left, transparent, #008000), linear-gradient(to bottom right, #008000 50%, transparent 50%, transparent); /* Green gradient for leaves */
+  -webkit-mask-image: linear-gradient(to bottom right, #008000 50%, transparent 50%, transparent); /* Green gradient for leaves */
+  mask-image: linear-gradient(to bottom right, #008000 50%, transparent 50%, transparent); /* Green gradient for leaves */
 }
 
 .flower__g-fr {
@@ -939,7 +940,7 @@ body {
 
 .long-g--2 .leaf,
 .long-g--3 .leaf {
-  -webkit-mask-image: linear-gradient(to top, transparent 40%, #1aaa15 80%) !important;
+  -webkit-mask-image: linear-gradient(to top, transparent 40%, #008000 80%) !important; /* Green color for leaves */
 }
 
 .long-g--2 .leaf--1,
@@ -954,7 +955,7 @@ body {
 }
 
 .long-g--3 .leaf {
-  -webkit-mask-image: linear-gradient(to top, transparent 40%, #1aaa15 80%) !important;
+  -webkit-mask-image: linear-gradient(to top, transparent 40%, #008000 80%) !important; /* Green color for leaves */
 }
 
 .long-g--4 {
@@ -965,7 +966,7 @@ body {
 }
 
 .long-g--4 .leaf {
-  -webkit-mask-image: linear-gradient(to top, transparent 50%, #1aaa15 80%) !important;
+  -webkit-mask-image: linear-gradient(to top, transparent 50%, #008000 80%) !important; /* Green color for leaves */
 }
 
 .long-g--5 {
@@ -994,14 +995,14 @@ body {
 .long-g .leaf {
   --w: 15vmin;
   --h: 40vmin;
-  --c: #1aaa15;
+  --c: #008000; /* Green color for leaves */
   position: absolute;
   bottom: 0;
   width: var(--w);
   height: var(--h);
   border-top-left-radius: 100%;
   border-left: 2vmin solid var(--c);
-  -webkit-mask-image: linear-gradient(to top, transparent 20%, var(--dark-color));
+  -webkit-mask-image: linear-gradient(to top, transparent 20%, var(--c)); /* Green gradient for leaves */
   transform-origin: bottom center;
 }
 
@@ -1213,46 +1214,3 @@ body {
   animation-play-state: paused !important;
 }
 
-/*# sourceMappingURL=style.css.map */
-@media (max-width: 720px) and (max-height: 1600px) {
-  .title {
-    font-size: 40px;
-    margin-top: 10px;
-  }
-
-  .flower {
-    transform: scale(1.2);
-  }
-
-  .flower__line {
-    height: 80vmin;
-  }
-
-  .flower__leaf {
-    width: 10vmin;
-    height: 14vmin;
-  }
-
-  .flower__grass {
-    bottom: 15vmin;
-  }
-
-  .flower__grass__leaf {
-    --size: 12vmin;
-  }
-
-  .flower__light {
-    width: 1.5vmin;
-    height: 1.5vmin;
-  }
-
-  .flower__white-circle {
-    width: 12vmin;
-    height: 6vmin;
-  }
-
-  .flower__white-circle::after {
-    width: 70%;
-    height: 70%;
-  }
-}
