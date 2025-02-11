@@ -168,7 +168,7 @@ body {
   transform: translate(-50%, -100%);
   width: 8vmin;
   height: 8vmin;
-  background-color: #ff007f; /* Rose theme color */
+  background-color: #ff0000; /* Red color for rose theme */
   filter: blur(10vmin);
 }
 
@@ -179,8 +179,8 @@ body {
   width: 8vmin;
   height: 11vmin;
   border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
-  background-color: #ff007f; /* Rose theme color */
-  background-image: linear-gradient(to top, #ff69b4, #ff007f); /* Rose theme gradient */
+  background-color: #ff0000; /* Red color for rose theme */
+  background-image: linear-gradient(to top, #ff6347, #ff0000); /* Red gradient for rose theme */
   transform-origin: bottom center;
   opacity: 0.9;
   box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
@@ -204,7 +204,7 @@ body {
   transform-origin: bottom left;
   border-radius: 4vmin 10vmin 4vmin 4vmin;
   transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), #ff007f); /* Rose theme gradient */
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), #ff0000); /* Red gradient for rose theme */
   z-index: 1;
   opacity: 0.8;
   -webkit-transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
@@ -220,7 +220,7 @@ body {
   width: 9vmin;
   height: 4vmin;
   border-radius: 50%;
-  background-color: #ff69b4; /* Rose theme color */
+  background-color: #ff6347; /* Red color for rose theme */
 }
 
 .flower__white-circle::after {
@@ -238,7 +238,7 @@ body {
 .flower__line {
   height: 55vmin;
   width: 1.5vmin;
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), transparent, rgba(255, 255, 255, 0.2)), linear-gradient(to top, transparent 10%, #ff007f, #fff); /* Rose theme gradient */
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), transparent, rgba(255, 255, 255, 0.2)), linear-gradient(to top, transparent 10%, #008000, #fff); /* Green gradient for stem */
   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
   animation: grow-flower-tree 4s backwards;
 }
@@ -253,7 +253,7 @@ body {
   height: var(--h);
   border-top-right-radius: var(--h);
   border-bottom-left-radius: var(--h);
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), #3cf76e);
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), #008000); /* Green gradient for leaves */
 }
 
 .flower__line__leaf--1 {
