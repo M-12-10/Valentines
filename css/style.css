@@ -1215,6 +1215,9 @@ body {
 }
 @media (max-width: 720px) {
   .flowers {
-    transform: scale(1.5);
+    transform: scale(1.4);
   }
+}
+body {
+  overflow: hidden;
 }
