@@ -1214,3 +1214,59 @@ body {
   animation-play-state: paused !important;
 }
 
+@media (max-width: 720px) and (max-height: 1600px) {
+  .flower {
+    transform: scale(0.7);
+  }
+
+  .flower__leaf {
+    width: 6vmin;
+    height: 8vmin;
+  }
+
+  .flower__line {
+    height: 40vmin;
+  }
+
+  .flower__line__leaf {
+    --w: 5vmin;
+    --h: calc(var(--w) + 1vmin);
+  }
+
+  .flower__grass {
+    --line-w: 1vmin;
+  }
+
+  .flower__grass--top {
+    width: 5vmin;
+    height: 7vmin;
+  }
+
+  .flower__grass--bottom {
+    height: 20vmin;
+  }
+
+  .flower__grass__leaf {
+    --size: 8vmin;
+  }
+
+  .flower__g-long {
+    --w: 1vmin;
+    --h: 4vmin;
+  }
+
+  .flower__g-right .leaf {
+    width: 20vmin;
+    height: 40vmin;
+  }
+
+  .flower__g-front__leaf {
+    width: 8vmin;
+    height: 8vmin;
+  }
+
+  .long-g .leaf {
+    --w: 10vmin;
+    --h: 30vmin;
+  }
+}
