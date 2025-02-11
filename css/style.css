@@ -1213,39 +1213,11 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
-@media (max-height: 720px) {
-  .flower__line {
-    height: 40vmin;
-  }
-
-  .flower__leaf {
-    width: 6vmin;
-    height: 8vmin;
-  }
-
-  .flower__grass--bottom {
-    height: 20vmin;
-  }
-
-  .flower__grass__leaf {
-    --size: 8vmin;
-  }
-
-  .flower__g-long__bottom {
-    height: 40vmin;
-  }
-
-  .flower__g-right .leaf {
-    height: 40vmin;
-  }
-
-  .flower__g-front__leaf {
-    width: 8vmin;
-    height: 8vmin;
-  }
-
-  .long-g .leaf {
-    --w: 10vmin;
-    --h: 30vmin;
+@media (min-width: 720px) and (min-height: 1600px) {
+  .flowers {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.5);
   }
 }
