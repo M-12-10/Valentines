@@ -1213,11 +1213,8 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
-@media (min-width: 720px) and (min-height: 1600px) {
+@media (min-width: 720px) {
   .flowers {
-    position: absolute;
-    top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%) scale(1.5);
   }
 }
