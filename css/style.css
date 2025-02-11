@@ -939,7 +939,7 @@ body {
 
 .long-g--2 .leaf,
 .long-g--3 .leaf {
-  -webkit-mask-image: linear-gradient(to top, transparent 50%, #3cf76e 80%) !important;
+  -webkit-mask-image: linear-gradient(to top, transparent 40%, #1aaa15 80%) !important;
 }
 
 .long-g--2 .leaf--1,
@@ -954,7 +954,7 @@ body {
 }
 
 .long-g--3 .leaf {
-  -webkit-mask-image: linear-gradient(to top, transparent 40%, #3cf76e 80%) !important;
+  -webkit-mask-image: linear-gradient(to top, transparent 40%, #1aaa15 80%) !important;
 }
 
 .long-g--4 {
@@ -965,7 +965,7 @@ body {
 }
 
 .long-g--4 .leaf {
-  -webkit-mask-image: linear-gradient(to top, transparent 50%, #3cf76e 80%) !important;
+  -webkit-mask-image: linear-gradient(to top, transparent 50%, #1aaa15 80%) !important;
 }
 
 .long-g--5 {
