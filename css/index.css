@@ -216,7 +216,7 @@ body {
     content: "";
     position: absolute;
     left: 50%;
-    top: 50%;;
+    top: 50%;
     transform: translate(-50%, -50%);
     width: 6vmin;
     height: 6vmin;
@@ -227,7 +227,7 @@ body {
 
 .flower__leaf {
     position: absolute;
-    bottom: 0;
+    bottom: -2vmin; /* Moved leaves a bit below */
     left: 50%;
     width: 8vmin;
     height: 16vmin;
