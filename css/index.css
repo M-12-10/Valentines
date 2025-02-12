@@ -229,8 +229,8 @@ body {
     position: absolute;
     bottom: -8vmin; /* Moved leaves a bit below */
     left: 50%;
-    width: 8vmin;
-    height: 16vmin;
+    width: 7vmin;
+    height: 14vmin;
     border-radius: 50% 50% 0 0;
     background-color: #FFD700; /* Golden color for sunflower petals */
     background-image: linear-gradient(to top, #FFA500, #FFD700); /* Golden gradient for sunflower petals */
