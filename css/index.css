@@ -227,7 +227,7 @@ body {
 
 .flower__leaf {
     position: absolute;
-    bottom: -2vmin; /* Moved leaves a bit below */
+    bottom: -5vmin; /* Moved leaves a bit below */
     left: 50%;
     width: 8vmin;
     height: 16vmin;
