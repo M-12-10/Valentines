@@ -42,32 +42,17 @@ body {
   }
   
 .star {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: white;
-    transform: rotate(45deg);
-    animation: twinkle 1.5s infinite alternate;
+  position: absolute;
+  width: 1vmin;
+  height: 1vmin;
+  background-color: rgb(255, 251, 0);
+  border-radius: 50%;
+  filter: blur(0.2vmin);
+  animation: light-ans 4s linear infinite backwards;
 }
 
-.star::before,
-.star::after {
-    content: "";
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: white;
-    border-radius: 50%;
-}
-
-.star::before {
-    top: -5px;
-    left: 0;
-}
-
-.star::after {
-    top: 0;
-    left: -5px;
+.star:nth-child(odd) {
+  background-color: #fff;
 }
 
   @keyframes twinkle {
