@@ -1219,4 +1219,8 @@ body {
     margin-bottom: 30%;
     margin-top: 0%;
   }
+
+  .title {
+    transform: scale(0.9);
+  }
 }
