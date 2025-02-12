@@ -7,7 +7,7 @@
 }
 
 :root {
-  --dark-color: rgba(0, 0, 20, 1); /* Hot pink color for a romantic theme */
+  --dark-color: rgba(0, 0, 20, 1) 90%; /* Hot pink color for a romantic theme */
   --background-gradient: linear-gradient(135deg, rgba(10, 10, 50, 0.8) 10%, rgba(0, 0, 20, 1) 90%); /* Adjusted gradient for smoother transition */
 }
 
@@ -219,8 +219,8 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 8vmin;
-    height: 8vmin;
+    width: 6vmin;
+    height: 6vmin;
     background-color: #8B4513; /* Brown color for sunflower center */
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -274,13 +274,14 @@ body {
 
 .flower__white-circle {
     position: absolute;
-    left: -3.5vmin;
-    top: -3vmin;
+    left: 50%;
+    top: 50%;
     z-index: 1;
-    width: 9vmin;
-    height: 4vmin;
+    width: 8vmin;
+    height: 8vmin;
     border-radius: 50%;
     background-color: #8B4513; /* Brown color for sunflower center */
+    transform: translate(-50%, -50%);
 }
 
 .flower__white-circle::after {
@@ -288,7 +289,7 @@ body {
     position: absolute;
     left: 50%;
     z-index: 1;
-    top: 45%;
+    top: 50%;
     transform: translate(-50%, -50%);
     width: 60%;
     height: 60%;
