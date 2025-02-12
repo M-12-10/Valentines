@@ -124,7 +124,7 @@ body {
 
 .flower--2 {
     left: 50%;
-    transform: rotate(20deg);
+    transform: rotate(35deg);
     animation: moving-flower-2 4s linear infinite;
 }
 
@@ -151,7 +151,7 @@ body {
 
 .flower--3 {
     left: 50%;
-    transform: rotate(-15deg);
+    transform: rotate(-35deg);
     animation: moving-flower-3 4s linear infinite;
 }
 
@@ -227,7 +227,7 @@ body {
 
 .flower__leaf {
     position: absolute;
-    bottom: -8vmin; /* Moved leaves a bit below */
+    bottom: -7vmin; /* Moved leaves a bit below */
     left: 50%;
     width: 7vmin;
     height: 14vmin;
