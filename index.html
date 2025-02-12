@@ -35,6 +35,14 @@
       color: #fff;
       font-size: 60px;
       text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      animation: fadeIn 2s forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
     }
 
     .night {
@@ -127,20 +135,22 @@
   <div class="heart" style="top: 60%; left: 30%; animation-delay: 2s;"></div>
   <div class="heart" style="top: 80%; left: 70%; animation-delay: 3s;"></div>
   <script>
-    const title = document.querySelector('.title');
-    const text = "Happy Valentine's Day! I Have Something For You Cutu!".split("");
-    for (let index = 0; index < text.length; index++) {
-      if (text[index] !== ' ') {
-        title.innerHTML += `<span>${text[index]}</span>`;
-      } else {
-        title.innerHTML += `<span style='margin-right: 20px;'></span>`;
+    document.addEventListener("DOMContentLoaded", () => {
+      const title = document.querySelector('.title');
+      const text = "Happy Valentine's Day! I Have Something For You Cutu!".split("");
+      for (let index = 0; index < text.length; index++) {
+        if (text[index] !== ' ') {
+          title.innerHTML += `<span>${text[index]}</span>`;
+        } else {
+          title.innerHTML += `<span style='margin-right: 20px;'></span>`;
+        }
       }
-    }
 
-    const textElements = document.querySelectorAll('.title span');
-    textElements.forEach((element) => {
-      const randomDelay = Math.random() * 3; // Generate random delay between 0 to 3 seconds
-      element.style.animationDelay = `${randomDelay}s`;
+      const textElements = document.querySelectorAll('.title span');
+      textElements.forEach((element) => {
+        const randomDelay = Math.random() * 3; // Generate random delay between 0 to 3 seconds
+        element.style.animationDelay = `${randomDelay}s`;
+      });
     });
   </script>
 </body>
