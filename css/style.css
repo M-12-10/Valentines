@@ -11,11 +11,6 @@
   --background-gradient: linear-gradient(135deg, #ff69b4 0%, #ff1493 100%); /* Consistent hot pink gradient */
 }
 
-html, body {
-  overflow: hidden;
-  touch-action: none;
-}
-
 .title {
   position: absolute;
   width: 100%;
