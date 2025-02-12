@@ -18,7 +18,7 @@
     margin-top: 20px;
     top: 0;
     left: 0;
-    color: #FFD700; /* Golden color to match sunflower petals */
+    color: #ffffff; /* Golden color to match sunflower petals */
     font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Black shadow for contrast */
@@ -216,7 +216,7 @@ body {
     content: "";
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 50%;;
     transform: translate(-50%, -50%);
     width: 6vmin;
     height: 6vmin;
@@ -274,7 +274,7 @@ body {
 .flower__white-circle {
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 50%;
     z-index: 1;
     width: 8vmin;
     height: 8vmin;
